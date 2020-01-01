@@ -1,0 +1,19 @@
+name: Schema review
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - master
+
+jobs:
+  schema-review:
+    runs-on: ubuntu-latest
+    name: Schema review
+    steps:
+      - uses: actions/checkout@v1
+      - name: schema review 
+        id: schema-review 
+        uses: graphql-consulting/schema-review-action@v1
