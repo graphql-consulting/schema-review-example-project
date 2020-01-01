@@ -1,0 +1,12 @@
+# Schema review config file
+schema-source:
+  introspect-server:
+    # the container exposes a port 4000
+    container-port: 4000 
+    # our Dockerfile is simply at the root
+    dockerfile-path: '.'
+# customize rules
+rules:
+  # nullable list elements should be ERROR
+  nullable-list-elements:
+    severity: ERROR
