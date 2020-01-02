@@ -10,3 +10,5 @@ rules:
   # nullable list elements should be ERROR
   nullable-list-elements:
     severity: ERROR
+  definition-used:  
+    disabled-for: [Upload]
