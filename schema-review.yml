@@ -9,6 +9,6 @@ schema-source:
 rules:
   # nullable list elements should be ERROR
   nullable-list-elements:
-    severity: ERROR
+    severity: INFO
   definition-used:  
     disabled-for: [Upload]
