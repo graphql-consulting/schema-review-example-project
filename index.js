@@ -9,6 +9,7 @@ const typeDefs = gql`
   type Query {
     books: [Book]
   }
+
   input UpdateBookTitleInput {
       id: ID!
       title: String!
