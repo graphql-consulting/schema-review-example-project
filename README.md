@@ -6,3 +6,4 @@ You can see an example PR with the review results [here]()
 
 For any issues or questions please open an Issue in [Schema review issues](https://github.com/graphql-consulting/schema-review-issues/issues).
 
+
