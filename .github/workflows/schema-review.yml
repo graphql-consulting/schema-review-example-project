@@ -17,3 +17,5 @@ jobs:
       - name: schema review 
         id: schema-review 
         uses: graphql-consulting/schema-review-action@v1
+        with:
+            secret: ${{ secrets.SCHEMA_REVIEW_SECRET }}
